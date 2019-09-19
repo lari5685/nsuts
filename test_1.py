@@ -1,6 +1,6 @@
 s=0
 print('0 to 10^9')
-for i in range(0,10**9, 1):
+for i in range(0,10**9, 1): #for i in range(0,-10**9, -1):
 	s+=i
 	m=abs(i)
 	if i%2 == 0:
